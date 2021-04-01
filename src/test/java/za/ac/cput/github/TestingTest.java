@@ -42,5 +42,27 @@ public class TestingTest {
        
         fail("The test case is a prototype.");
     }
+  @Test // Ondela
+    public void Failingtest() {
+        fail("Hello Everyone ");
+    }
+    @Test //Ondela
+    public void testEquality(){
+        String obj1 = "Junit";
+        String obj2 = "Junit";
+        assertEquals(obj1, obj2);
+    }
+    @Test //Ondela
+    public void testIdentity(){
+        String obj3 = "Ondela";
+        String obj4 = "Ondela";
+        assertSame(obj3, obj4);
+    }
+    @Test //Ondela
+    @Disabled
+    public void disabledTest(){
+    
+        System.out.println("The Sum of a + b = " +sum);
+    }
     
 }

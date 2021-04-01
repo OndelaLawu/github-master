@@ -15,6 +15,7 @@ public class Array {
  * @author ondela
 
    This method counts the arrays then the total and max
+   Adding arrays to the method
  */
        
         double [] myList = {1.9, 2,9, 3.4, 3,5};
