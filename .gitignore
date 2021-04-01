@@ -1,0 +1,4 @@
+#Files and Folders will be ignored by git
+/nbproject/
+build.xml
+manifest.mf
