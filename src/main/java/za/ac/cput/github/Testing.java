@@ -13,6 +13,7 @@ public class Testing {
 /**
  *
  * @author ondela
+   Adding arrays to the method
 
    This method counts the arrays then the total and max
  */
